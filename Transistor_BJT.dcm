@@ -36,6 +36,12 @@ K PNP Transistor
 F https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf
 $ENDCMP
 #
+$CMP 2N3905_copy
+D -0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92
+K PNP Transistor
+F https://www.fairchildsemi.com/datasheets/2N/2N3905.pdf
+$ENDCMP
+#
 $CMP 2N3906
 D -0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92
 K PNP Transistor
@@ -114,7 +120,19 @@ K NPN Transistor
 F http://www.farnell.com/datasheets/296634.pdf
 $ENDCMP
 #
+$CMP BC140_copy
+D 1A Ic, 40V Vce, NPN Transistor, TO-39
+K NPN Transistor
+F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
 $CMP BC141
+D 1A Ic, 60V Vce, NPN Transistor, TO-39
+K NPN Transistor
+F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP BC141_copy
 D 1A Ic, 60V Vce, NPN Transistor, TO-39
 K NPN Transistor
 F http://www.farnell.com/datasheets/296634.pdf
@@ -862,6 +880,16 @@ $CMP BFT92
 D 0.025A Ic, 15V Vce, 5GHz Wideband PNP Transistor, SOT-23
 K RF 5GHz NPN Transistor
 F https://assets.nexperia.com/documents/data-sheet/BFT92_CNV.pdf
+$ENDCMP
+#
+$CMP BJT_NPN_Generic
+D Generic device for BJT NPN
+K NPN Transistor
+$ENDCMP
+#
+$CMP BJT_PNP_Generic
+D Generic device fot BJT PNP
+K PNP Transistor
 $ENDCMP
 #
 $CMP BUT11
