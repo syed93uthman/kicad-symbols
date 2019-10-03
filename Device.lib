@@ -1,6 +1,39 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 2Cell_LiIon_Cell
+#
+DEF 2Cell_LiIon_Cell BT 0 0 N Y 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "2Cell_LiIon_Cell" 100 0 50 H V L CNN
+F2 "Battery:BatteryHolder_Keystone_18650_2Slot_SMD" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
+DRAW
+S -340 70 -160 60 0 1 0 F
+S -340 70 -160 60 0 1 0 F
+S -312 47 -192 27 0 1 0 F
+S -312 47 -192 27 0 1 0 F
+S -90 70 90 60 0 1 0 F
+S -62 47 58 27 0 1 0 F
+P 2 0 1 0 -250 30 -250 0 N
+P 2 0 1 0 -250 30 -250 0 N
+P 2 0 1 0 -250 70 -250 100 N
+P 2 0 1 0 -250 70 -250 100 N
+P 2 0 1 10 -230 135 -190 135 N
+P 2 0 1 10 -230 135 -190 135 N
+P 2 0 1 10 -210 155 -210 115 N
+P 2 0 1 10 -210 155 -210 115 N
+P 2 0 1 0 0 30 0 0 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 20 135 60 135 N
+P 2 0 1 10 40 155 40 115 N
+X A1 A1 0 200 100 D 50 50 1 1 P
+X A2 A2 -250 200 100 D 50 50 1 1 P
+X B1 B1 0 -100 100 U 50 50 1 1 P
+X B2 B2 -250 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Amperemeter_AC
 #
 DEF Amperemeter_AC MES 0 1 N N 1 F N
@@ -151,11 +184,11 @@ X - 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Battery_Cell
+# Battery_Cell_copy
 #
-DEF Battery_Cell BT 0 0 N N 1 F N
+DEF Battery_Cell_copy BT 0 0 N N 1 F N
 F0 "BT" 100 100 50 H V L CNN
-F1 "Battery_Cell" 100 0 50 H V L CNN
+F1 "Battery_Cell_copy" 100 0 50 H V L CNN
 F2 "" 0 60 50 V I C CNN
 F3 "" 0 60 50 V I C CNN
 DRAW

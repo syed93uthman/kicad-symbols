@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2Cell_LiIon_Cell
+D Single-cell battery
+K battery cell
+F ~
+$ENDCMP
+#
 $CMP Amperemeter_AC
 D AC ammeter
 K ammeter AC ampere meter
@@ -48,7 +54,7 @@ K batt voltage-source cell
 F ~
 $ENDCMP
 #
-$CMP Battery_Cell
+$CMP Battery_Cell_copy
 D Single-cell battery
 K battery cell
 F ~
