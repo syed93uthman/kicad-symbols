@@ -204,6 +204,12 @@ K Current-flow, voltage and temperature  measurement to support batterycapacity 
 F https://datasheets.maximintegrated.com/en/ds/DS2745.pdf
 $ENDCMP
 #
+$CMP HY2213
+D 1  Cell  Li-ion/Polymer  Battery  Charge  Balance  IC
+K  Li-ion Charger
+F ${KIDOCU}/IC/BatteryManager/HYCON-Tech-HY2213-BB3A_C113632.pdf
+$ENDCMP
+#
 $CMP LP3947
 D Single Cell Li-Ion LDO Battery Charger IC, Up to 1A, Support USB charging scheme
 K li-ion battery charger usb
