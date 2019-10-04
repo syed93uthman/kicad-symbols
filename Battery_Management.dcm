@@ -612,4 +612,8 @@ K battery charger lithium
 F http://www.mouser.com/ds/2/268/22090a-52174.pdf
 $ENDCMP
 #
+$CMP S-8254A
+F ${KIDOCU}/IC/BatteryManager/Seiko-Instruments-S-8254AAVFT-TB-S_C24731.pdf
+$ENDCMP
+#
 #End Doc Library
