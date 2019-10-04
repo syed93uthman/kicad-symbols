@@ -6,6 +6,12 @@ K battery cell
 F ~
 $ENDCMP
 #
+$CMP 2Cell_LiIon_Parellel
+D Single-cell battery
+K battery cell
+F ~
+$ENDCMP
+#
 $CMP Amperemeter_AC
 D AC ammeter
 K ammeter AC ampere meter
