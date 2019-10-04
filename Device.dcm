@@ -1,12 +1,12 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 2Cell_LiIon_Cell
+$CMP 2Cell_LiIon_Parellel
 D Single-cell battery
 K battery cell
 F ~
 $ENDCMP
 #
-$CMP 2Cell_LiIon_Parellel
+$CMP 3Cell_LiIon_Series
 D Single-cell battery
 K battery cell
 F ~
