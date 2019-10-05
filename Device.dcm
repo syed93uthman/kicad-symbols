@@ -9,7 +9,7 @@ $ENDCMP
 $CMP 3Cell_LiIon_Series
 D Single-cell battery
 K battery cell
-F ~
+F ${KIDOCU}/BatteryHolder/3Slot_18650_Dimension_TH.jpg
 $ENDCMP
 #
 $CMP Amperemeter_AC
