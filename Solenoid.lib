@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Solenoid_DC
+#
+DEF Solenoid_DC U 0 40 Y Y 1 F N
+F0 "U" 100 200 50 H V C CNN
+F1 "Solenoid_DC" 50 300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 150 150 -150 -150 0 1 0 f
+S 300 50 150 -50 0 1 0 F
+X ~ 1 -250 100 100 R 50 50 1 1 W
+X ~ 2 -250 -100 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
