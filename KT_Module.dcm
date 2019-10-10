@@ -1,3 +1,7 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Adafruit-Feather-Nrf52840
+F ${KIDOCU}/Module/Adafruit/feather-nrf52840/adafruit-nrf52840-feather-manual.pdf
+$ENDCMP
+#
 #End Doc Library
