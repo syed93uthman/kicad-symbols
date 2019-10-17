@@ -6,6 +6,11 @@ K battery cell
 F ~
 $ENDCMP
 #
+$CMP 2Cell_LiIon_Series
+D Single-cell battery
+K battery cell
+$ENDCMP
+#
 $CMP 3Cell_LiIon_Series
 D Single-cell battery
 K battery cell
