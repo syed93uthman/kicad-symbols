@@ -616,4 +616,8 @@ $CMP S-8254A
 F ${KIDOCU}/IC/BatteryManager/Seiko-Instruments-S-8254AAVFT-TB-S_C24731.pdf
 $ENDCMP
 #
+$CMP bq2057WSN
+F ${KIDOCU}/IC/BatteryManager/bq2057w.pdf
+$ENDCMP
+#
 #End Doc Library
