@@ -225,6 +225,11 @@ D Power symbol creates a global label with name "+CELL_2"
 K power-flag battery
 $ENDCMP
 #
+$CMP +CELL_GND
+D Power symbol creates a global label with name "+CELL_2"
+K power-flag battery
+$ENDCMP
+#
 $CMP +VDC
 D Power symbol creates a global label with name "+VDC"
 K power-flag
