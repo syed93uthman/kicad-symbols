@@ -198,6 +198,12 @@ K Miniature Relay Dual Pole DPDT Omron
 F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf
 $ENDCMP
 #
+$CMP G6B-1114P-US-DC12
+D Standex Meder DIP reed relay, SPST, Closing Contact
+K Single Pole Reed Relay SPST
+F https://my.mouser.com/datasheet/2/307/en-g6b-230838.pdf
+$ENDCMP
+#
 $CMP G6E
 D Omron Subminiature Sensitive SPDT Signal Switching Relay, Single-Side Stable
 K Single Pole Relay SPDT
