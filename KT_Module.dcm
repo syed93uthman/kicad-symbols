@@ -4,4 +4,8 @@ $CMP Adafruit-Feather-Nrf52840
 F ${KIDOCU}/Module/Adafruit/feather-nrf52840/adafruit-nrf52840-feather-manual.pdf
 $ENDCMP
 #
+$CMP FE1-1S
+F https://datasheet.lcsc.com/szlcsc/1811021220_Terminus-Tech-FE1-1S_C9359.pdf
+$ENDCMP
+#
 #End Doc Library
