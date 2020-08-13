@@ -8,4 +8,16 @@ $CMP FE1-1S
 F https://datasheet.lcsc.com/szlcsc/1811021220_Terminus-Tech-FE1-1S_C9359.pdf
 $ENDCMP
 #
+$CMP Siren
+D Crystal speaker/transducer
+K crystal speaker ultrasonic transducer
+F ~
+$ENDCMP
+#
+$CMP Speaker_Ultrasound
+D Ultrasonic transducer
+K crystal speaker ultrasonic transducer
+F ~
+$ENDCMP
+#
 #End Doc Library
