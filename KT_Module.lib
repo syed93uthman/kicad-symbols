@@ -1,6 +1,24 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 3_Cell_Protecttion
+#
+DEF 3_Cell_Protecttion U 0 40 Y Y 1 F N
+F0 "U" -500 350 50 H V C CNN
+F1 "3_Cell_Protecttion" 0 350 50 H V C CNN
+F2 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+DRAW
+S -300 250 300 -300 0 1 0 f
+X B1+ 1 -400 150 100 R 50 50 1 1 I
+X B2+ 2 -400 50 100 R 50 50 1 1 I
+X B3+ 3 -400 -50 100 R 50 50 1 1 I
+X B3- 4 -400 -150 100 R 50 50 1 1 I
+X P_IO+ 5 400 150 100 L 50 50 1 1 I
+X P_IO- 6 400 -50 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Adafruit-Feather-Nrf52840
 #
 DEF Adafruit-Feather-Nrf52840 U 0 40 Y Y 1 F N
